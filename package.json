@@ -1,0 +1,13 @@
+{
+    "name": "minimal-line-coverage-with-tsx",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "test": "c8 mocha ./src/*.test.ts"
+    },
+    "devDependencies": {
+        "c8": "^10.1.2",
+        "mocha": "^10.5.1",
+        "tsx": "^4.15.7"
+    }
+}
